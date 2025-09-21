@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(10, 10, 31);
+}
+
+
+#bol {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    
+}
+#popular {
+    color: rgb(208, 255, 0);
+    display: flex;
+    gap: 20px;
+    padding: 7px;
+    font-size: larger;
+}
+#te {
+    position: absolute;
+    top: 0px;
+    left: 7px;
+    font-size: xx-large;
+}
+img {
+    width: 135px;
+    height: 165px;
+    border: 2px solid rgb(0, 0, 0);
+}
+#seemore {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top : 25px;
+    right: 10px;
+    font-size: larger;
+}
+#popular2 {
+    display: flex;
+    gap: 20px;
+}
+#series {
+    color: gold;
+    position: absolute;
+    top: 310px;
+    left: 7px;
+    font-size: xx-large;
+}
+#nomore {
+    display: none;
+}
+#hide {
+    display: none;
+}
+button {
+    background-color: black;
+    color: gold;
+}
+
+#rec {
+    display: none;
+}
+.reco {
+    display: flex;
+    top : 100px;
+}
